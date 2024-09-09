@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body
+{   
+    height: 100vh;
+    background: url("doc.webp");
+    background-position: center;
+    background-size: cover;
+
+}
+
+header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+}
+
+header .navbar
+{
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.navbar .logo
+{
+    font-size: 2.1rem;
+    font-weight: 600;
+}
+
+.navbar .logo span
+{
+    color: red;
+}
+
+.navbar .menu-link
+{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+
+}
+
+.navbar a
+{
+    color: blue;
+    text-decoration: none;
+    transition: 0.2s ease;
+}
+
+.navbar a:hover
+{
+    color:red;
+}
+
+.card-box
+{
+    max-width: 300px;
+    margin: 200px auto;
+    padding: 40px;
+    background-color: #34e2eb;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,.2);
+}
+
+.card-box .head
+{
+margin-top: 0;
+margin-bottom: 10px;
+font-size: 24px;
+text-align: center;
+}
+
+.input-contain
+{
+    margin-bottom: 20px;
+}
+
+.label
+{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 10px;
+    color: #333;
+}
+
+input[type='number']
+{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #eb4034;
+    border-radius: 1px;
+    outline-color: #00a38d;
+}
+
+button
+{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #00bfa6;
+    border:none;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: duration 0.3s;
+}
+
+button.hover
+{
+    background-color:#00a38d;
+}
+
+#result
+{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
